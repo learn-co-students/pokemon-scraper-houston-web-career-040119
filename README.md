@@ -39,10 +39,10 @@ the data that goes into the query string you need to [execute](http://stackoverf
 ***NOTE***: We strongly encourage you to at least attempt the bonus. That being said, if you decide that you'd like to move on without completing the bonus section, simply comment out the bonus tests and re-run the test suite. So long as there are pending tests, Learn will not recognize your code as passing.
 
 ### BONUS
-Now that we got every pokemon we want to get them ready to fight. (Did you really think you and Arel weren't going to have a battle after capturing every pokemon?) But if they battle we need to keep track of their hp (health power).  And the only way to do that is to alter the database.  What would be perfect is a sql query that adds an `hp` column and default value of 60 to every row.  That sql command should be put into a migration file in `db/`.
+#Now that we got every pokemon we want to get them ready to fight. (Did you really think you and Arel weren't going to have a battle after capturing every pokemon?) But if they battle we need to keep track of their hp (health power).  And the only way to do that is to alter the database.  What would be perfect is a sql query that adds an `hp` column and default value of 60 to every row.  That sql command should be put into a migration file in `db/`.
 
-Once the `hp` column is set up there should be an instance method called `alter_hp` that will allow us to change a specific pokemon's health to a new hp.  It will need to take a new health power as a parameter.
+#Once the `hp` column is set up there should be an instance method called `alter_hp` that will allow us to change a specific pokemon's health to a new hp.  It will need to take a new health power as a parameter.
 
-Follow the pending specs for more information.
+#Follow the pending specs for more information.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/pokemon-scraper' title='Objectives:'>Objectives:</a> on Learn.co and start learning to code for free.</p>
+#<p data-visibility='hidden'>View <a href='https://learn.co/lessons/pokemon-scraper' title='Objectives:'>Objectives:</a> on Learn.co and start learning to code for free.</p>
